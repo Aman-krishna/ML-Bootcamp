@@ -29,6 +29,6 @@ data = pd.read_csv("sample_data/mnist_train_small.csv")
 X = data.iloc[:,1:]
 Y = data.iloc[:,0]
 X,Y
-output = KNN(X,Y,x,K=-10)
+output = KNN(X,Y,x,K=10)
 output
 
